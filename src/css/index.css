@@ -71,3 +71,44 @@ body, html{
 .header-main .main-list-item a:hover{
 	color: #f80000;
 }
+
+/*BANNER*/
+
+.banner{
+	background-image: url("../images/hero-sales-desktop.jpg");
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	position: relative;
+}
+
+.banner-bg{
+	background-image: url("../images/over-hero-banner.png");
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+.banner-text{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.banner-text-ContentButtons{
+	display: flex;
+}
+
+.banner-text-ContentLinks{
+	display: flex;
+}
+
+.banner-text-ContentLinks .button{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+

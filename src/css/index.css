@@ -1,1 +1,40 @@
-/*HEADER*/
+/* HEADER */
+
+.header {
+	background-color: green;
+	height: 90px;
+}
+
+.header-logo{
+	height: 100%;
+	background-color: yellow;
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-logo img {
+	width: 100%;
+}
+
+.header-main{
+	width: 80%;
+	background-color: purple;
+	display: inline-block;
+	float: right;
+}
+
+.header-main .links{
+	background-color: peru;
+	display: inline-block;
+}
+
+.header-main .main-list-item{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.header-main .main-list-item a{
+	color: black;
+	text-decoration: none;
+}

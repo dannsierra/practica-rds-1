@@ -1,166 +1,261 @@
 /*GENERAL*/
-
 body, html{
+
 	font-size: 16px;
+
+}
+/*ITILIDAD*/
+.u-container{
+	margin:0 auto;
+	max-width: 1245px;
+
 }
 
-/* HEADER */
+/*HEADER*/
 
-.header {
+.header{
 	height: 90px;
+
 }
 
 .header-logo{
+	display:inline-block;
 	height: 100%;
-	width: 20%;
-	display: inline-block;
 	position: relative;
+	width: 20%;
+	behavior:url(PIE/pie.htc);
 }
-
-.header-logo img {
-	width: 100%;
+.header-logo img{
 	position: absolute;
-	top: 0;
+	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
+	width:100%;
+	
 }
-
-.header-main{
-	width: 80%;
-	display: inline-block;
-	float: right;
-	height: 45px;
-	padding: 0 70px 0 70px;
-	box-sizing: border-box;
-	line-height: 45px;
-}
-
 .header-main .links{
+	font-size:0.88em;
 	height: 45px;
 	line-height: 45px;
-	font-size: 0.88em;
-}
 
+}
 .header-main .links a{
-	color: #333333;
-}
-
+	color:#333333;
+	}
 .header-main .links a:nth-child(2){
-    float: right;
-}
+	float:right;
 
-.header-main .main-list{
+	}
+	
+.header-main{
+	box-sizing: border-box;
+	display: inline-block;
+	float:right;
+	height: 45px;
+	line-height: 45px;
+	padding: 0px 70px;
+	width: 80%;
+}
+.header-main .mainlist{
+	display: flex;
+	font-size: 1.12em;
+	justify-content:space-between;
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: space-between;
-	font-size: 1.12em;
-}
 
+}
 .header-main .main-list-item{
 	display: inline-block;
-}
 
+}
 .header-main .main-list-item a{
-	color: #333333;
+	color:black;
 	text-decoration: none;
-}
 
-.header-main .main-list-item a:hover{
-	color: #f80000;
 }
+.header-main .main-list-item a:hover{
+	color:#f80000;
+	}
+/*FIN HEADER*/
+
 
 /*BANNER*/
 
 .banner{
 	background-image: url("../images/hero-sales-desktop.jpg");
-	min-height: 500px;
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position:right center ;
+	min-height: 500px;
 	position: relative;
 }
-
 .banner-bg{
 	background-image: url("../images/over-hero-banner.png");
-	height: 500px;
 	background-repeat: no-repeat;
-}
 
+	min-height: 500px;
+}
 .banner-text{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 500px;
+	color:white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	color: white;
 	margin-left: 60px;
+	position: absolute;
+	bottom:0;
+	top:0;
+	width:500px;
 }
-
 .banner-text-title{
-	font-size: 2.12em;
-	margin-left: 0px;
+	font-size:2.12em;
+	margin:0px;
 }
-
 .banner-text-text{
-	font-size: 1.12em;
+	font-size:1.12em;
 }
-
-.banner-text-ContentButtons{
-	display: flex;
+.banner-text-contentbuttons{
+display: flex;
 }
-
-.banner-text-ContentButtons .button{
-	margin-right: 8px;
-	padding: 18px 61px;
-	color: #006699;
+.banner-text-contentbuttons .button{
+	color:006699;
 	font-size: 1.06em;
+	margin-right:8px;
+	padding: 8px 61px;
 }
-
-.banner-text-ContentLinks{
+.banner-text-contentlinks{
 	display: flex;
-}
 
-.banner-text-ContentLinks .link{
-	margin-right: 8px;
-	padding: 18px 4px;
-	color: white;
+}
+.banner-text-contentlinks .links{
+	color:white;
 	font-size: 1.25em;
-}
+	margin-right:8px;
+	padding: 8px 4px;
+	}
 
-/*ERP CLOUD*/
+/*FIN BANNER*/
 
-.erpCloud{
+
+/*ERP CLOUND*/
+
+.erpCLoud{
 	display: flex;
+	justify-content: center;
 }
-
 .erpCloud-text{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
 .erpCloud-text-title{
-	font-size: 1.75em;
+	font-size:1.75em;
 }
-
 .erpCloud-text-list{
 	list-style: none;
 }
+.erpCloud-text-lis .item{
+	margin:0 0 20px;
+}
+.erpCloud-text-content-Buttons{
+	display: flex;
+	justify-content: center;
+}
+.erpCloud-text-content-Buttons .button{
+	padding: 18px 61px;
+	margin:10px;
+	border: solid 1px #006699;
+	color:#006699;
+}
+.erpCloud-text-content-Buttons .button:hover{
+	border: solid 1px #000000;
+	color:#000000;
+	}
+/*FIN ERP CLOUND*/
 
-.erpCloud-text-list .item{
-	margin: 0 0 20px;
+
+/*CUSTOMER SECTION*/
+
+.customers{
+	margin:50px 0px;
+
+}
+.customers-cotentimages{
+	display: flex;
+	justify-content: space-around;
+}
+.customers-title{
+	font-size: 1.50em;
+	text-align: center;
+}
+/*FIN CUSTOMER SECTION*/
+
+/*CONTENT CARDS*/
+.contentcards{
+	display: flex;
+	margin: 50px 0px;
+	justify-content: space-between;
+
+}
+.card{
+	border:solid 1px #eeeeee;
+	display: flex;
+	width: 48%;
+	
+}
+.card-img{
+	font-size: 0px;
+	height: 100%;
+}
+.card-text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 50px;
+}
+.card-text-text{
+	font-size:0.88em;
+	margin:0 0 5px;
+}
+.card-text-link{
+	font-size:0.88em;
+	text-decoration: none;
+}
+/* FIN CONTENT CARDS*/
+
+
+/*PLANEACION*/
+
+.planning{
+	background-color:#fafafa;
+	padding:60px 30px;
+}
+.planning-content{
+	display: flex;
+}
+.planning-content-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+hr{
+	width: 100%;
 }
 
-.erpCloud-text-ContentButtons{
+.planning-content-text .list{
+	list-style: none;
+}
+
+.planning-content-text .list-item{
+	margin: 0 0 25px;
+}
+
+.planning-content-text .contentButtons {
 	display: flex;
 	justify-content: center;
 }
 
-.erpCloud-text-ContentButtons .button{
+.planning-content-text .contentButtons-button {
 	padding: 18px 61px;
 	margin: 10px;
 	border: 1px solid #006699;
@@ -168,7 +263,8 @@ body, html{
 	background: transparent;
 }
 
-.erpCloud-text-ContentButtons .button:hover {
+.planning-content-text .contentButtons-button:hover{
 	border: 1px solid black;
 	color: black;
 }
+/*FIN PLANEACION*/

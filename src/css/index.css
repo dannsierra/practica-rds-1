@@ -267,4 +267,94 @@ hr{
 	border: 1px solid black;
 	color: black;
 }
+
 /*FIN PLANEACION*/
+
+/*FOOTER*/
+
+.footer{
+
+}
+
+/*FOOTER COLS*/
+
+.footer-contentCols{
+	display: flex;
+	justify-content: space-between;
+	background-color: #fafafa;
+}
+
+.footer-contentCols-col{
+	padding: 0 30px 50px;
+}
+
+.footer-contentCols-col .title{
+	color: #1f4f82;
+	margin-bottom: 30px;
+}
+
+.footer-contentCols-col .list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-contentCols-col .list-item{
+	margin: 0 0 15px;
+}
+
+.footer-contentCols-col .list-item-link{
+	text-decoration: none;
+	font-size: 0.88em;
+}
+
+/*FOOTER BOTTOM*/
+
+.footer-contentBottom{
+	position: relative;
+}
+
+
+.footer-contentBottom-title{
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.footer-contentBottom-title span{
+	color: #f80000;
+}
+
+.footer-contentBottom-listLinks{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.69em;
+}
+
+.footer-contentBottom-listLinks .item{
+	display: inline-block;
+}
+
+.footer-contentBottom-listLinks .item-link{
+	text-decoration: none;
+	color: black;
+}
+
+.footer-contentBottom-listSocial{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.footer-contentBottom-listSocial .item{
+	display: inline-block;
+}
+
+.footer-contentBottom-listSocial .item-link{
+	text-decoration: none;
+	padding: 10px;	
+}

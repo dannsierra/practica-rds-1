@@ -1,0 +1,365 @@
+	/* GENERAL */
+
+	body, html {
+		font-size: 16px;
+	}
+
+	/* UTILITIES */
+
+	.u-container {
+		max-width: 1245px;
+		margin: 0 auto;
+	}
+
+	/* HEADER */
+
+	.header {
+		height: 90px;
+		&-logo {
+			height: 100%;
+			width: 20%;
+			display: inline-block;
+			position: relative;
+			img {
+				width: 100%;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+		}
+		&-main {
+			display: inline-block;
+			width: 80%;
+			float: right;
+			height: 100%;
+			box-sizing: border-box;
+			padding: 0 70px;
+			height: 45px;
+			line-height: 45px;
+			.links {
+				height: 45px;
+				line-height: 45px;
+				font-size: 0.88em;
+				a {
+					color: #333333;
+					&:nth-child(2) {
+						float: right;
+					}
+				}
+			}
+			.main-list {
+				padding: 0;
+				margin: 0;
+				display: flex;
+				justify-content: space-between;
+				&-item {
+					height: 50%;
+					display: inline-block;
+					a {
+						color: #333333;
+						text-decoration: none;
+						padding: 10px;
+						font-weight: 600;
+						font-size: 1.12em;
+						&:hover {
+							color: #f80000;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* BANNER */
+
+	.banner {
+		background-image: url("../../src/images/hero-finance.jpg");
+		background-repeat: no-repeat;
+		background-position: right center;
+		min-height: 500px;
+		position: relative;
+		&-bg {
+			background-image: url("../../src/images/over-hero-banner.png");
+			background-repeat: no-repeat;
+			height: 500px;
+		}
+		&-text {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			color: white;
+			margin-left: 60px;
+			&-tittle {
+				font-size: 2.12em;
+				margin: 0;
+			}
+			&-text {
+				font-size: 1.12em;
+			}
+			&-content {
+				&Buttons {
+					display: flex;
+					.button {
+						margin-right: 8px;
+						padding: 18px 30px;
+						color: #006699;
+						font-size: 1.06em;
+						min-width: 250px;
+						span {
+							font-size: 1.3em;
+							margin-left: 25px;
+							position: relative;
+							top: 3px;
+						}
+					}
+				}
+				&Links {
+					display: flex;
+					.iconOne {
+						position: relative;
+						font-size: 1.3em;
+						top:45px;
+						right: 70px;
+					}
+					.iconTwo {
+						position: relative;
+						font-size: 1.3em;
+						top:45px;
+						right: 150px;
+					}
+					.link {
+						margin-right: 8px;
+						padding: 18px 4px;
+						color: white;
+						font-size: 1.25em;
+					}
+				}
+			}
+			
+		}
+	}
+
+	/* ERP CLOUD */
+
+	.erpCloud {
+		display: flex;
+		justify-content: center;
+		&-text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			&-title {
+				font-size: 1.75em;
+			}
+			&-list {
+				list-style: none;
+				.item {
+					margin: 0 0 20px;
+				}
+			}
+			&-contentButtons {
+				display: flex;
+				justify-content: center;
+				span {
+					font-size: 1.3em;
+					margin-left: 25px;
+					position: relative;
+					top: 3px;
+				}
+				.button {
+					padding: 18px 30px;
+					margin: 10px;
+					border: 1px solid #006699;
+					color: #006699;
+					background: transparent;
+					min-width: 250px;
+					&:hover {
+						border: 1px solid black;
+						color: black;
+					}
+				}
+			}
+		}
+	}
+
+	/* CUSTOMERS */
+
+	.customers {
+		margin: 50px 0;
+		&-title {
+			text-align: center;
+			font-size: 1.50em;
+		}
+		&-contentImages {
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+
+	/* CARDS */
+
+	.content-cards {
+		margin: 50px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.card {
+		display: flex;
+		border: 1px solid #eee;
+		width: 48%;
+		background-color: #FFF;
+		&-img img {
+			height: 100%;
+		}
+		&-text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0 50px;
+			&-text {
+				margin: 0 0 5px;
+				font-size: 0.88em;
+			}
+			&-link {
+				font-size: 0.88em;
+			}
+		}
+	}
+
+	/* PLANNING */
+
+	.planning {
+		background-color: #fafafa;
+		padding: 60px 30px;
+		&-content {
+			display: flex;
+			&-text {
+				display: flex;
+				flex-direction: column;
+				justify-content: center; 
+				.title {
+					font-size: 1.75em;
+				}
+				.list {
+					list-style: none;
+					&-item {
+						margin: 0 0 25px;
+					}
+				}
+				.contentButtons {
+					display: flex;
+					justify-content: center;
+					&-button {
+						padding: 18px 30px;
+						margin: 10px;
+						border: 1px solid #006699;
+						color: #006699;
+						background: transparent;
+						min-width: 250px;
+						span {
+							position: relative;
+							top: 3px;
+							font-size: 1.3em;
+							margin-left: 25px;
+						}
+						&:hover {
+							border: 1px solid black;
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	/* FOOTER */
+
+	.footer {
+		margin-bottom: 40px;
+		&-content {
+			&Cols {
+				display: flex;
+				justify-content: space-between;
+				background-color: #fafafa;
+				&-col {
+					padding: 0 30px 50px;
+					.title {
+						color: #1f4f82;
+						margin-bottom: 30px;
+					}
+					.list {
+						list-style: none;
+						padding: 0;
+						margin: 0;
+						&-item {
+							margin: 0 0 15px;
+							&-link {
+								text-decoration: none;
+								font-size: 0.88em;
+								color: #333;
+							}
+						}
+					}
+				}
+			}
+			&Bottom {
+				position: relative;
+				&-title {
+					font-size: 1.25em;
+					margin-bottom: 10px;
+					font-weight: normal;
+					span {
+						color: #f80000;
+					}
+				}
+				&-list {
+					&Links {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						font-size: 0.69em;
+						.item {
+							display: inline-block;
+							&-link {
+								text-decoration: none;
+								color: black;
+							}
+						}
+					}
+					&Social {
+						list-style: none;
+						padding: 0;
+						margin: 0;
+						position: absolute;
+						right: 0;
+						top: 0;
+						.item {
+							display: inline-block;
+							&-link {
+								text-decoration: none;
+								padding: 10px;
+								span {
+									font-size: 1.6em;
+									&:before {
+										color: gray;
+									}
+								}
+								&:hover span:before {
+									color: red;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}

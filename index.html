@@ -1,244 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Práctica RDS!</title>
-	<link rel="stylesheet" href="./src/css/index.css">
+	<meta charset="UTF-8">
+	<title>RDS Practica</title>
+	<link rel="stylesheet" href="./assets/css/index.css">
 	<link rel="stylesheet" href="./src/css/normalize.css">
-
+	<link rel="stylesheet" href="./src/css/fonts.css">
 </head>
 <body>
-<div class="u-container">
-	<!-- HEADER -->
-	<header class="header">
-		<div class="header-logo"><img src="./src/images/red-design-systems.png" alt="Logo">
-		</div>
-			<div class="header-main">
-			<div class="links">
-				<a href="">Small and Medium Business Solutions</a>
-				<a href="">Go to Oracle.com</a>
+	<div class="u-container">
+		<!-- HEADER -->
+		<header class="header">
+			<div class="header-logo">
+				<img src="./src/images/red-design-systems.png" alt="">
 			</div>
+			<div class="header-main">
+				<div class="links">
+					<a href="#">Small and medium Business Solution</a>
+					<a href="#">Go to Oracle.com</a>
+				</div>
 				<nav class="main">
-					<ul class="mainlist">
-						<li class="main-list-item"><a href="#">Finance</a></li>
-						<li class="main-list-item"><a href="#">Sales</a></li>
-						<li class="main-list-item"><a href="#">HR</a></li>
-						<li class="main-list-item"><a href="#">IT</a></li>
-
+					<ul class="main-list">
+						<li class="main-list-item">
+							<a href="">Finance</a>
+						</li>
+						<li class="main-list-item">
+							<a href="">Sales</a>
+						</li>
+						<li class="main-list-item">
+							<a href="">HR</a>
+						</li>
+						<li class="main-list-item">
+							<a href="">IT</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
-	</header>
-	<section class="banner">
-		<div class="banner-bg">
-			
-		</div>
-		<div class="banner-text">
-		<h1 class="banner-text-title">GO After High Growth with Your Financials</h1>
-		<p class="banner-text-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ipsam itaque, doloribus magni, adipisci ab tenetur eius! Accusamus harum voluptatibus reprehenderit voluptates totam rem corporis commodi odio quo, est amet.</p>
-		<div class="banner-text-contentbuttons">
-			<button class="button">Watch video</button>	
-			<button class="button">Chat with Rep</button>
-		</div>
-		<div class="banner-text-contentlinks">
-			<a href="" class="links">ERP Cloud</a>
-			<a href="" class="links">Planning & Budget</a>
-		</div>
+		</header>
+
+		<!-- BANNER -->
+		<section class="banner">
+			<div class="banner-bg"></div>
+			<div class="banner-text">
+				<h1 class="banner-text-title">GO After High Growth with Your Finances</h1>
+				<p class="banner-text-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nam cupiditate dolor animi debitis beatae, illo aspernatur suscipit, odit perferendis tempora laudantium libero, assumenda quisquam magnam sit. Cumque, nesciunt, praesentium?</p>
+
+				<div class="banner-text-contentButtons">
+					<button class="button">
+						Watch the Video
+						<span class="icon-play"></span>
+					</button>
+					<button class="button">
+						Chat with Rep
+						<span class="icon-chat"></span>
+					</button>
+				</div>			
+				<div class="banner-text-contentLinks">
+					<a href="#" class="link">ERP Cloud</a>
+					<span class="icon-arrow-down iconOne"></span>
+					<a href="#" class="link">Planning & Budgeting Cloud</a>
+					<span class="icon-arrow-down iconTwo"></span>
+				</div>
+			</div>
+		</section>
 		
-			
-		</div>
+		<!-- ERP CLOUD -->
+		<section class="erpCloud">
+			<div class="erpCloud-img">
+				<img src="./src/images/product-finance-cloud.png" alt="">
+			</div>
+			<div class="erpCloud-text">
+				<h2 class="erpCloud-text-title">ERP Cloud</h2>
+				<p class="erpCloud-text-subtitle">Higlight:</p>
+				<hr>
+				<ul class="erpCloud-text-list">
+					<li class="item">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vero quaerat illo minus degenered exit.
+					</li>
+					<li class="item">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit nulla, voluptates. Qui, eligendi.
+					</li>
+					<li class="item">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit sunt. Explicabo iusto fugit fuga tempore et?
+					</li>
+					<li class="item">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit quidem.
+					</li>
+				</ul>
+				<div class="erpCloud-text-contentButtons">
+					<button class="button">
+						Watch Video
+						<span class="icon-play"></span>
+					</button>
+					<button class="button">
+						Products Detail
+						<span class="icon-arrow-right"></span>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- CUSTOMERS -->
+		<section class="customers">
+			<h3 class="customers-title">A Handful of Our Growing Customers</h3>
+			<div class="customers-contentImages">
+				<img src="./src/images/logo-provita-mobile.png" alt="" class="customers-contentImages-img">
+				<img src="./src/images/logo-imi-mobile.png" alt="" class="customers-contentImages-img">
+				<img src="./src/images/logo-smartcitizen-mobile.png" alt="" class="customers-contentImages-img">
+			</div>
+		</section>
+		<hr>
 		
+		<!-- CARDS -->
+		<div class="content-cards">
+			<div class="card">
+				<div class="card-img">
+					<img src="./src/images/thumb-190x142-article-forbes.jpg" alt="">
+				</div>
+				<div class="card-text">
+					<p class="card-text-text">
+						Forbes: "The Top 5 Strategic Finance Issues For 2016"
+					</p>
+					<a href="#" class="card-text-link">Read more</a>
+				</div>
+			</div>
 
-	</section>
-<!-- ERP CLOUD -->
-	<section class="erpCLoud">
-<div class="erpCloud-img">
-    <img src="./src/images/product-finance-cloud.png" alt="Desktop">    
-</div>
-<div class="erpCloud-text">
-    <h2 class="erpCloud-text-title">Erp Cloud</h2>
-    <p class="erpCloud-text-subtitle">Higlight:</p>
-    
+			<div class="card">
+				<div class="card-img">
+					<img src="./src/images/thumb-190x142-art-theoraclecomplteg.jpg" alt="">
+				</div>
+				<div class="card-text">
+					<p class="card-text-text">
+						Forbes: "The Top 5 Strategic Finance Issues For 2016"
+					</p>
+					<a href="#" class="card-text-link">Read more</a>
+				</div>
+			</div>
+		</div>
 
+		<!-- PLANNING -->
+		<section class="planning">
+			<div class="planning-content">
+				<div class="planning-content-text">
+					<h2 class="title">Planning & Budgeting Cloud</h2>
+					<p class="subtitle">Higlight:</p>
+					<hr>
+					<ul class="list">
+						<li class="list-item">
+							Lorem ero quaerat illo minus molestiae, aspernatur, deserunt culpa  voluptas praesentium adipisci quod. Quasi, autem nobis eum nam soluta, nemo eius.
+						</li>
+						<li class="list-item">
+							Quam voluptatibus, deserunt repellat. Architecto rem! In repellat nulla, tempore suscipit dolores ipsam nostrum mollitia amet voluptates. Qui, eligendi.
+						</li>
+						<li class="list-item">
+							Nisi vitae voluptatem tenetur. Vero soluta totam perferendis in repellat sunt. Explicabo iusto fugit fuga tempore et?
+						</li>
+					</ul>
+					<div class="contentButtons">
+						<button class="contentButtons-button">
+							Watch Video
+							<span class="icon-play"></span>
+						</button>
+						<button class="contentButtons-button">
+							Products Detail
+							<span class="icon-arrow-right"></span>
+						</button>
+					</div>
+				</div>
+				<div class="planning-content-img">
+					<img src="./src/images/product-planning-budgeting-cloud.png" alt="">
+				</div>
+			</div>
 
-    <ul class="erpCloud-text-list">
-        <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores mollitia ducimus ipsum consequatur sed quae expedita esse provident. Officiis consequatur aspernatur nostrum mollitia quisquam quibusdam voluptate dolorum doloribus saepe sunt!</li>
-        <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ab. Obcaecati numquam, aut quis nisi sapiente. Optio ea voluptates accusamus, nisi eveniet omnis. Deserunt, consequuntur fugiat dignissimos, veniam non libero!</li>
-        <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptas iusto nesciunt beatae ullam impedit dicta qui, quo deleniti incidunt. Eos labore magnam, pariatur eveniet corporis voluptatum unde enim dolores.</li>
-        <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid tempora, at maiores dolorem animi quos eaque et obcaecati, sit quidem error aperiam, culpa consequuntur itaque nemo hic. Neque adipisci, ipsa?</li>
-    </ul>
-<div class="erpCloud-text-content-Buttons">
+			<!-- CARDS -->
+			<div class="content-cards">
+				<div class="card">
+					<div class="card-img">
+						<img src="./src/images/finance-blog-deskt.jpg" alt="">
+					</div>
+					<div class="card-text">
+						<p class="card-text-text">
+							Forbes: "The Top 5 Strategic Finance Issues For 2016"
+						</p>
+						<a href="#" class="card-text-link">Read more</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img">
+						<img src="./src/images/blog-icon-desk.png" alt="">
+					</div>
+					<div class="card-text">
+						<p class="card-text-text">
+							Forbes: "The Top 5 Strategic Finance Issues For 2016"
+						</p>
+						<a href="#" class="card-text-link">Read more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer-contentCols">
+				<!-- COL1 -->
+				<div class="footer-contentCols-col">
+					<h5 class="title">FINANCES</h5>
+					<ul class="list">
+						<li class="list-item">
+							<a href="" class="list-item-link">Erp Cloud</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Lorem text</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Text Lorem</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Finances</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- COL2 -->
+				<div class="footer-contentCols-col">
+					<h5 class="title">SALES</h5>
+					<ul class="list">
+						<li class="list-item">
+							<a href="" class="list-item-link">Erp Cloud</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Lorem text</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Text Lorem</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Finances</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- COL3 -->
+				<div class="footer-contentCols-col">
+					<h5 class="title">HR</h5>
+					<ul class="list">
+						<li class="list-item">
+							<a href="" class="list-item-link">Erp Cloud</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Lorem text Lorem text</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Text Lorem</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Finances Lorem text</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- COL4 -->
+				<div class="footer-contentCols-col">
+					<h5 class="title">IT</h5>
+					<ul class="list">
+						<li class="list-item">
+							<a href="" class="list-item-link">Erp Cloud</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Lorem text Lorem text</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Text Lorem Lorem text</a>
+						</li>
+						<li class="list-item">
+							<a href="" class="list-item-link">Finances</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 	
-	<button class="button">Watch video</button>
-    <button class="button">Product</button>
-</div>
-    
-
-</div>
-
-</section>
-
-
-<!-- CUSTOMERS SECTION -->
-<section class="customers">
-    <h3 class="customers-title">A Handful of our Growing Customers</h3>
-    <div class="customers-cotentimages">
-    <img class="customers-img" src="./src/images/logo-provita-mobile.png"></img>
-    <img class="customers-img" src="./src/images/logo-imi-mobile.png"></img>
-    <img class="customers-img" src="./src/images/logo-smartcitizen-mobile.png"></img>
-</div>
-</section>
-
-	
-	</section>
-	<!-- CARDS -->
-	<div class="contentcards">
-	<div class="card">
-		<div class="card-img">
-		<img src="./src/images/thumb-190x142-article-forbes.jpg" alt="logo" class="src">
-		</div>
-		<div class="card-text">
-			<p class="card-text-text">Forbes: "The Top 5 Strategic Finance Issues For 2016"</p>
-			<a href="#" class="card-text-link">Read the Article</a>
-		</div>
+			<div class="footer-contentBottom">
+				<h5 class="footer-contentBottom-title">
+					<span>Integrated Cloud</span> Applications & Platform Services
+				</h5>
+				<ul class="footer-contentBottom-listLinks">
+					<li class="item"><a href="" class="item-link">Oracle</a> |</li>
+					<li class="item"><a href="" class="item-link">Suscribe</a> |</li>
+					<li class="item"><a href="" class="item-link">Careers</a> |</li>
+					<li class="item"><a href="" class="item-link">Contact Us</a> |</li>
+					<li class="item"><a href="" class="item-link">Site Maps</a> |</li>
+					<li class="item"><a href="" class="item-link">Legal Notices</a> |</li>
+					<li class="item"><a href="" class="item-link">Terms of Use</a> |</li>
+					<li class="item"><a href="" class="item-link">Privacy</a> |</li>
+					<li class="item"><a href="" class="item-link">Cookie Preferences</a> |</li>
+					<li class="item"><a href="" class="item-link">Ad Choises</a> |</li>
+					<li class="item"><a href="" class="item-link">Oracle Mobile</a> </li>
+				</ul>
+				<ul class="footer-contentBottom-listSocial">
+					<li class="item">
+						<a href="" class="item-link">
+							<span class="icon-fb"></span>
+						</a>
+					</li>
+					<li class="item">
+						<a href="" class="item-link">
+							<span class="icon-twitter"></span>
+						</a>
+					</li>
+					<li class="item">
+						<a href="" class="item-link">
+							<span class="icon-in"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</div>
-	<!-- CARDS2 -->
-<div class="card">
-		<div class="card-img">
-		<img src="./src/images/thumb-190x142-art-theoraclecomplteg.jpg" alt="" class="src">
-		</div>
-		<div class="card-text">
-			<p class="card-text-text">The Oracle Complete Guide to Modern ERP</p>
-			<a href="#" class="card-text-link">Get the eBook </a>
-		</div>
-	</div>
-</div>
-<!-- PLANNING -->
-	<section class="planning">
-	<div class="planning-content">
-	<div class="planning-content-text">
-    <h2 class="title">Planning & Budgeting Cloud</h2>
-
-    
-    <p class="subtitle">Higlight:</p>
-<hr>
-    
-    <ul class="list">
-    
-
-        <li class="list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsa veniam ad sapiente quisquam itaque delectus explicabo repellat distinctio ab nemo, vero, ea temporibus, qui animi voluptas aut sit cum.</li>
-        <li class="list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium alias magni ab, sint maiores eligendi corporis similique saepe deleniti qui in dolorum fugiat facere numquam iure dolor illo porro odit!</li>
-        <li class="list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum quibusdam eligendi, rerum necessitatibus quae facere esse quo voluptatem. Optio ducimus fuga sit culpa similique tempore ipsum illum quasi quis.</li>
-        <li class="list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus culpa sapiente maxime, eos vel optio ab eveniet aut, saepe exercitationem hic, excepturi laudantium. Saepe ullam ex, aspernatur, tempora voluptas magni.</li>
-    </ul>
-<div class="contentButtons">
-	
-	<button class="contentButtons-button">Watch video</button>
-    <button class="contentButtons-button">Product</button>
-</div>
-    
-
-</div>
-<div class="planning-content-img">
-    <img src="./src/images/product-planning-budgeting-cloud.png" alt="image">    
-</div>
-</div>
-<!-- CARDS -->
-<div class="contentcards">	<div class="card">
-		<div class="card-img">
-		<img src="./src/images/finance-blog-deskt.jpg" alt="" class="src">
-		</div>
-		<div class="card-text">
-			<p class="card-text-text">21st Century Finance: The New Rules You Need to Know</p>
-			<a href="#" class="card-text-link">Read the Blog </a>
-		</div>
-	</div>
-	<!-- CARDS2 -->
-<div class="card">
-		<div class="card-img">
-		<img src="./src/images/blog-icon-desk.png" alt="" class="src">
-		</div>
-		<div class="card-text">
-			<p class="card-text-text">Understand how Midsize Businesses Leverage The Cloud</p>
-			<a href="#" class="card-text-link">Download the PDF</a>
-		</div>
-	</div>
-</div>
-</section>
-<!-- FOOTER -->
-<footer class="footer">
-<div class="footer-contentCols">
-<!-- COL1 -->
-	<div class="footer-contentCols-col">
-		<h5 class="title">FINACE</h5>
-		<ul class="list">
-			<li class="list-item"><a href="#" class="list-item-link">ERP Cloud</a></li>
-			<li class="list-item"><a href="#" class="list-item-link">EPM: Planning and Budgeting Cloud</a></li>
-		</ul>
-	</div>
-<!-- COL2 -->
-	<div class="footer-contentCols-col">
-		<h5 class="title">SALES</h5>
-		<ul class="list">
-			<li class="list-item"><a href="#" class="list-item-link">Sales Cloud</a></li>
-		</ul>
-	</div>
-<!-- COL3 -->
-	<div class="footer-contentCols-col">
-		<h5 class="title">HR</h5>
-		<ul class="list">
-			<li class="list-item"><a href="#" class="list-item-link">Global HR</a>
-			</li>
-			<li class="list-item"><a href="#" class="list-item-link">Talent Management Cloud</a>
-			</li>
-		</ul>
-	</div>
-<!-- COL4 -->
-	<div class="footer-contentCols-col">
-		<h5 class="title">IT</h5>
-		<ul class="list">
-			<li class="list-item"><a href="#" class="list-item-link">IaaS: Storage Cloud Service
-			</a></li>
-			<li class="list-item"><a href="#" class="list-item-link">FMW: Documents Cloud Service
-			</a>
-			</li>
-			<li class="list-item"><a href="#" class="list-item-link">PaaS: Database Cloud Service
-			</a>
-			</li>
-			<li class="list-item"><a href="#" class="list-item-link">PaaS: Mobile Cloud Service</a>
-			</li>	
-		</ul>
-	</div>
-	</div>
-        
-    <div class="footer-contentBottom">
-    <H5 class="footer-contentBottom-title"><span>Integrated Cloud</span> Applications & Platform Services</H5>
-	        <ul class="footer-contentBottom-listLinks">
-		  <li class="item"><a href="" class="item-link">content1</a></li>
-		  <li class="item"><a href="" class="item-link">content2</a></li>
-		  <li class="item"><a href="" class="item-link">content3</a></li>
-		  <li class="item"><a href="" class="item-link">content4</a></li>
-		  <li class="item"><a href="" class="item-link">content5</a></li>
-		  <li class="item"><a href="" class="item-link">content6</a></li>
-		  <li class="item"><a href="" class="item-link">content7</a></li>
-		  <li class="item"><a href="" class="item-link">content8</a></li>
-		  <li class="item"><a href="" class="item-link">content9</a></li>
-		  <li class="item"><a href="" class="item-link">content10</a></li>
-		  <li class="item"><a href="" class="item-link">content11</a></li>
-	    </ul>
-	    <ul class="footer-contentBottom-listSocial">
-			<li class="item"><a href="" class="item-link">Facebook</a></li>
-			<li class="item"><a href="" class="item-link">LinkedIn</a></li>
-			<li class="item"><a href="" class="item-link">Twitter</a></li>
-	    </ul>
-	</div>
-
-
-</footer>
-</div>
-
-	<!--DOM(Document OBject MOdel)-->
 	<script src="./src/js/index.js"></script>
 </body>
 </html>

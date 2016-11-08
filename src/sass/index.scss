@@ -215,8 +215,12 @@
 		border: 1px solid #eee;
 		width: 48%;
 		background-color: #FFF;
-		&-img img {
-			height: 100%;
+		&-img {
+			width: 196px;
+			img {
+				height: 100%;
+				max-width: 196px;
+			}
 		}
 		&-text {
 			display: flex;
@@ -237,9 +241,10 @@
 
 	.planning {
 		background-color: #fafafa;
-		padding: 60px 30px;
+		padding: 60px 0;
 		&-content {
 			display: flex;
+			padding: 0 0 0 30px;
 			&-text {
 				display: flex;
 				flex-direction: column;
